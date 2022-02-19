@@ -25,13 +25,13 @@ public class ProjetoIntegrador {
     }
 
     public static int retornaDiferencaDeMaiorEMenorValor(int[] array) {
-        int menorValor = Integer.MAX_VALUE; //Apenas avisa o Java que eu quero usar o maior numero possivel como referencia. So usa no primeiro loop.
+        int menorValor = Integer.MAX_VALUE;
         for(int i=0; i < array.length; i++) {
             if(menorValor > array[i]) {
                 menorValor = array[i];
             }
         }
-        int maiorValor = Integer.MIN_VALUE; //Apenas avisa o Java que eu quero usar o menor numero possivel como referencia.
+        int maiorValor = Integer.MIN_VALUE;
         for(int i=0; i < array.length; i++) {
             if(maiorValor < array[i]){
                 maiorValor = array[i];
